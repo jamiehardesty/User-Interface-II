@@ -1,0 +1,16 @@
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+.aboutbox1 {
+    width: 20%;
+    /* background-color: coral; */
+}
+.para {
+    margin: 1% 10%;
+}
+.para p {
+    margin: 5% 0;
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+}
