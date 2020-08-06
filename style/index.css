@@ -48,8 +48,10 @@ a:hover {
 .mainbox-visible {
     border: 1px solid black;
     margin: 1%;
-    background-color: seagreen;
     height: 50vh;
+    background-image: url("https://picsum.photos/800/600");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .funbox {
     width: 100%;
@@ -65,18 +67,20 @@ a:hover {
         width: 25%;
         padding: 0;
         margin: 1%;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .funbox-child1 {
-        background-color: antiquewhite;
+        background-image: url("https://picsum.photos/200/301");
     }
     .funbox-child2 {
-        background-color: powderblue;
+        background-image: url("https://picsum.photos/200/302");
     }
     .funbox-child3 {
-        background-color: palevioletred;
+        background-image: url("https://picsum.photos/200/303");
     }
     .funbox-child4 {
-    background-color: lightgrey;
+        background-image: url("https://picsum.photos/200/304");
     }
 .funbox-child-friend {
     width: 40%;

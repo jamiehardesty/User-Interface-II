@@ -6,22 +6,10 @@ h2 {
     width: 20%;
     /* background-color: coral; */
 }
-.para {
-    margin: 1% 10%;
-}
-.para p {
-    margin: 5% 0;
+main p {
+    margin: 5%;
     font-family: 'Caveat', cursive;
     font-size: 3rem;
-}
-.para a {
-    border: none;
-    background: transparent;
-}
-.para a:hover {
-    border-radius: 10px;
-    border: 1px solid black;
-    background: linear-gradient(-35deg, #ccffff, #ffcccc);
 }
 .ctrpls {
     text-align: center;
