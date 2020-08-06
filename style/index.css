@@ -9,6 +9,17 @@ body {
     font-family: 'Vollkorn', serif;
     font-size: 2rem;
 }
+main {
+    animation: zoom 3s;
+}
+@keyframes zoom {
+        from {
+            margin-left: 300%;
+        }
+        to {
+            margin-left: 0%;
+        }
+}
 h1, h2 {
     font-family: 'Parisienne', cursive;
     font-size: 5rem;
