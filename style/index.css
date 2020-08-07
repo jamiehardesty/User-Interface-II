@@ -42,8 +42,8 @@ nav {
     justify-content: center;
 }
 a {
+    padding: 10px 20px;
     text-decoration: none;
-    padding: 1% 2%;
     background-color: white;
     border: 1px solid black;
     color: black;
@@ -108,8 +108,6 @@ footer {
 }
 footer nav {
     padding: 5% 0;
-    background: linear-gradient(35deg, #ccffff, #ffcccc);
-    background-color: blanchedalmond;
 }
 /* STYLE FOR about / contact / projects PAGES */
 /* STYLE FOR about / contact / projects PAGES */
@@ -143,7 +141,7 @@ footer nav {
 footer nav {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 20%;
     margin: 0 auto;
     text-align: center;
     background: none;
