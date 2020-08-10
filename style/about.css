@@ -1,16 +1,21 @@
 /* Stretch: CSS animations */
+
+
 h2 {
     font-family: 'Dancing Script', cursive;
 }
-.aboutbox1 {
-    width: 20%;
-    /* background-color: coral; */
-}
+
 main p {
     margin: 5%;
     font-family: 'Caveat', cursive;
     font-size: 3rem;
 }
+
+.aboutbox1 {
+    width: 20%;
+    /* background-color: coral; */
+}
+
 .ctrpls {
     text-align: center;
     margin: 0;
