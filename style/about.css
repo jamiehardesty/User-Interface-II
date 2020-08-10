@@ -1,0 +1,53 @@
+/* 
+These styles are applied to:
+    - about.html 
+    - projects.html 
+    - contact.html 
+*/
+
+/* Unit 1
+    [X] Stretch: CSS animations 
+    [X] Stretch: https://user-interface-ii.netlify.app
+*/
+
+/* Unit 2: 
+    [x] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
+    [x] Introduce max-width media queries into your project at 800px and 500px
+    [ ] Add accessability features to your webpage
+    [ ] Design should closely follow the mobile wireframe given for your chosen layout
+*/
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+main p {
+    margin: 5%;
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+}
+
+.aboutbox1 {
+    width: 20%;
+    /* background-color: coral; */
+}
+
+.ctrpls {
+    text-align: center;
+}
+
+.vh-2pages {
+    height: 70vh;
+    line-height: 10rem;
+}
+
+/* revision */ 
+
+.footer-different {
+    background: #FFAEBC;
+}
+
+.favoritecolor {
+    background: linear-gradient(-35deg, #A0E7E5, #FFAEBC,#A0E7E5);
+}
+}

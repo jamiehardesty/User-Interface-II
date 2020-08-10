@@ -1,1 +1,248 @@
-/* Add CSS styling here */
+/* Unit 1
+    [X] Stretch: CSS animations 
+    [X] Stretch: https://user-interface-ii.netlify.app
+*/
+
+/* Unit 2: 
+    [x] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
+    [x] Introduce max-width media queries into your project at 800px and 500px
+    [x] Add accessability features to your webpage
+    [ ] Design should closely follow the mobile wireframe given for your chosen layout
+*/
+
+* {
+    box-sizing: border-box; 
+    max-width: 100%;
+} 
+html {
+    font-size: 62.5%; 
+} 
+body {
+    font-family: 'Vollkorn', serif;
+    font-size: 2rem;
+}
+main {
+    animation: zoom 3s;
+}
+@keyframes zoom {
+        from {
+            margin-left: 300%;
+        }
+        to {
+            margin-left: 0%;
+        }
+}
+h1, h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 5rem;
+    text-align: center;
+}
+h1 {
+    padding: 1% 0;
+}
+h2 {
+    margin: 7% 0;
+    text-transform: capitalize;
+}
+section p {
+    margin: 2% 5%;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+a {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+a:hover {
+    background: linear-gradient(-35deg, #ccffff, #ffcccc);
+}
+
+
+.mainbox {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mainbox-visible {
+    border: 1px solid black;
+    margin: 1%;
+    height: 50vh;
+    background-image: url("https://picsum.photos/800/600");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.funbox {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1%;
+}
+.funbox-child {
+    display:flex;
+    width: 60%;
+}
+
+
+    .funbox-child > div {
+        border: 1px solid black;
+        width: 25%;
+        padding: 0;
+        margin: 1%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .funbox-child1 {
+        background-image: url("https://picsum.photos/200/301");
+    }
+    .funbox-child2 {
+        background-image: url("https://picsum.photos/200/302");
+    }
+    .funbox-child3 {
+        background-image: url("https://picsum.photos/200/303");
+    }
+    .funbox-child4 {
+        background-image: url("https://picsum.photos/200/304");
+    }
+
+
+.funbox-child-friend {
+    width: 40%;
+    margin: 0 auto;
+    padding: 3%;
+}
+.funbox-child-friend p {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+
+footer {
+    background: linear-gradient(35deg, #ccffff, #ffcccc);
+}
+footer nav {
+    padding: 5% 0;
+}
+
+
+/* STYLE FOR about / contact / projects PAGES */
+/* STYLE FOR about / contact / projects PAGES */
+/* STYLE FOR about / contact / projects PAGES */
+
+
+.current {
+    background-color: black;
+    color: white;
+}
+.current:hover {
+    color: black;
+}
+
+
+/* To keep the footer in place */
+/* To keep the footer in place */
+/* To keep the footer in place */
+
+
+#everything {
+    position: relative;
+    min-height: 100vh;
+}
+#not-footer {
+    padding-bottom: 2.5rem; /* match */
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; /* match */
+}
+
+
+/* ICONS */
+/* ICONS */
+/* ICONS */
+
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 0 auto;
+    text-align: center;
+    background: none;
+}
+.fa {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 4rem;
+    border: none;
+}
+
+footer nav a:hover, .ctrpls a:hover {
+    background: #ffcccc;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #ccffff;
+    border-color: palevioletred;
+}
+
+
+/* MEDIA INQUIRIES */ 
+/* MEDIA INQUIRIES */ 
+/* MEDIA INQUIRIES */ 
+
+
+@media (max-width: 800px) {
+    .funbox-child {
+        display: none;
+    }
+    .funbox-child-friend {
+        width: 100%;
+    }
+    .funbox-child-friend p {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    header nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/*  GENERAL ADJUSTMENTS:
+    - changed the background of about / contact / project to be a gradient
+    - changed the footer a:hover to be more similar to an iMessage
+
+    TOP: 
+        header nav a - width is now 100%
+        the 4 images lined up in a row on the index is hidden in 800px view
+
+    BOTTOM: 
+        div image consumes the background at 60% opacity for readable text and removal of images that serve no purpose aside from design
+*/
+
+@media (max-width: 500px) {
+    .mainbox-visible {
+        width: 100%;
+        border-radius: 0;
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        overflow: hidden;
+        opacity: .35;
+        margin: 0;
+        padding: 0;
+    }
+}
