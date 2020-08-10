@@ -38,4 +38,16 @@ main p {
 
 .vh-2pages {
     height: 70vh;
+    line-height: 10rem;
+}
+
+/* revision */ 
+
+.footer-different {
+    background: #FFAEBC;
+}
+
+.favoritecolor {
+    background: linear-gradient(-35deg, #A0E7E5, #FFAEBC,#A0E7E5);
+}
 }
