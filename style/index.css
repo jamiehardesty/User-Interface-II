@@ -241,7 +241,7 @@ footer nav a:hover, .ctrpls a:hover {
         left: 0;
         height: 100%;
         overflow: hidden;
-        opacity: 50%;
+        opacity: .35;
         margin: 0;
         padding: 0;
     }
